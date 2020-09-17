@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: e e e Flex license: MDK-ARM Essential: 1 user(s) (mdk_essential) Support: Sep 2020
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Essential: 1 user(s)  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+I:\1_Project\__2020\20200916_W5500_SPIDMA\james\W5500_STM32F4_SPI_DMA\MDK-ARM\Project.uvprojx
+Project File Date:  09/16/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'STM324xG_EVAL'
+compiling main.c...
+..\main.c(291): warning:  #186-D: pointless comparison of unsigned integer with zero
+  		if((ret = loopback_tcps(sn, gDATABUF, 3000)) < 0)
+..\main.c(296): warning:  #186-D: pointless comparison of unsigned integer with zero
+  		if((ret = loopback_tcps(sn+1, gDATABUF, 3000)) < 0)
+..\main.c(196): warning:  #177-D: variable "current_time"  was declared but never referenced
+  	uint32_t current_time = 0;
+..\main.c(317): warning:  #177-D: function "Delay"  was declared but never referenced
+  void Delay(__IO uint32_t nTime)
+..\main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=21676 RO-data=440 RW-data=140 ZI-data=4244  
+FromELF: creating hex file...
+".\STM324xG_EVAL\STM32F401_Test.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM324xG_EVAL
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

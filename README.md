@@ -23,7 +23,7 @@ Codes for SPI DMA methods are here.
 |GND            | J1_1     |GND     |
 
 ## W5500 Test Loopback
-![W5500_SPIDMA_24MHz](https://user-images.githubusercontent.com/9648281/93420590-3ac13e00-f8ea-11ea-9a36-fba6b9065ce4.png)
+![W5500_SPIDMA_25MHz](https://user-images.githubusercontent.com/9648281/93433961-77992f00-f902-11ea-9132-06cf38d71748.png)
 ## W5500 Recv Only using Iperf 
 To be add
 ## W5500 Send Only using Iperf
@@ -31,7 +31,7 @@ To be add
 
 
 ##OScilloscope
-![scope_1](https://user-images.githubusercontent.com/9648281/93421375-28e09a80-f8ec-11ea-84fa-b809b2d179b5.png)
+![SPI DMA(25MHz)_W5500_STM32F4](https://user-images.githubusercontent.com/9648281/93433966-78ca5c00-f902-11ea-982e-5c4c47ee176c.png)
 
 
 

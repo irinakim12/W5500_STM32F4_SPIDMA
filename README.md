@@ -25,7 +25,8 @@ Codes for SPI DMA methods are here.
 ## W5500 Test Loopback
 ![W5500_SPIDMA_25MHz](https://user-images.githubusercontent.com/9648281/93433961-77992f00-f902-11ea-9132-06cf38d71748.png)
 ## W5500 Recv Only using Iperf 
-To be add
+CMD : iperf.exe -c 192.168.0.66 -p 5001 -w 2M
+![image](https://user-images.githubusercontent.com/9648281/93728375-a2cd9800-fbfa-11ea-983a-dc624a061123.png)
 ## W5500 Send Only using Iperf
 To be add
 
